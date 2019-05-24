@@ -1,0 +1,15 @@
+@charset "UTF-8";
+header{
+	background-color: green;
+}
+h1{
+	color: white;
+	text-align: center;
+}
+form{
+	text-align: center;
+	align-content: center;
+	border: thin;
+	border-color: black;
+	border-style: solid;
+}

@@ -1,0 +1,20 @@
+@charset "UTF-8";
+header{
+	background-color: green;
+}
+h1{
+	color: white;
+	text-align: center;
+}
+body{
+	text-align: center;
+}
+div{
+	text-align:center;
+	align-content: center;
+	font-weight: bold;
+}
+.alignment{
+	text-decoration: underline;
+	font-weight:normal;
+}

@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>Make Payments</title>
+</head>
+<body>
+	<header>
+		<h1 class="display-3">My Bank</h1>
+	</header>
+	<form th:action="@{/payment}" th:object="${payment}" method="post">
+		Payment To: <input type="text">
+		Amount: <input type="text" th:field="*{payment}" >
+		<input type = "Submit" class="btn btn-primary">
+	</form>
+</body>
+</html>
